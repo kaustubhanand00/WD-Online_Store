@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cart</title>
+    <style>
+        body { background-color: bisque; font-family: sans-serif; padding: 20px; }
+        h2 { color: chocolate; }
+        table { width: 100%; border-collapse: collapse; background: white; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+        th { background: chocolate; color: white; }
+        button { background: chocolate; color: white; border: none; padding: 8px 15px; margin-top: 15px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h2>Shopping Cart</h2>
+    <table>
+        <tr>
+            <th>Book Title</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <td>Programming in C</td>
+            <td>Rs. 350</td>
+            <td>1</td>
+            <td>Rs. 350</td>
+        </tr>
+        <tr>
+            <td colspan="3" align="right"><b>Total:</b></td>
+            <td><b>Rs. 350</b></td>
+        </tr>
+    </table>
+    <button onclick="alert('Order Placed!')">Checkout</button>
+</body>
+</html>
